@@ -2,9 +2,9 @@ import javax.swing.JOptionPane;
 
 public class Fatorial {
 	public int calcularFatorial(int fat) {
-		if (fat > 12) {
+		if (fat > 12 || fat < 0) {
 			JOptionPane.showMessageDialog(null,
-					"Não pode ser maior que 12 \nPor uma limitação do sistema.\nOperação cancelada!");
+					"Não pode ser maior que 12 ou menor que 0 \nPor uma limitação do sistema.\nOperação cancelada!");
 			System.exit(0);
 		}
 		/** 
