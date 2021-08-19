@@ -10,7 +10,7 @@ public class Fatorial {
 		/** 
 		 * A condição de parada é que o numero do fatorial deve ser igual a 1
 		 * */
-		if (fat == 1 || fat == 0) {
+		if (fat <= 1) {
 			return 1;
 		}
 		/**
