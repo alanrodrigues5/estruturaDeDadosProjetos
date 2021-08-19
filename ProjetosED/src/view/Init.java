@@ -1,4 +1,7 @@
+package view;
 import javax.swing.JOptionPane;
+
+import controller.Fatorial;
 
 public class Init {
 	public static void main(String[] args) {
