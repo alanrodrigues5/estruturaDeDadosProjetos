@@ -9,7 +9,7 @@ public class CadeiaDeCaracteres {
 			return String.valueOf(palavra.charAt(tamanho));
 		}
 		/**exemplo: ABCD
-		 * tamanho = 3   retorno = DCBA
+		 * tamanho = 3 | retorno = DCBA
 		 * tamanho = 2 | retorno = CBA
 		 * tamanho = 1 | retorno = BA
 		 * tamanho = 0 | retorno = A
